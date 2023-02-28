@@ -13,8 +13,8 @@ const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const [index, setIndex] = useState(1);
   const toRotate = [ "is Fast", "is Intuitive", "has simple UI" ];
+  const [index, setIndex] = useState(1);
   const period = 2000;
 
   useEffect(() => {
