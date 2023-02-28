@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import contactImg from '../../assets/img/contact-img.svg'
 import './Contact.css'
@@ -14,7 +14,6 @@ const Contact = () => {
     }
     const [formDetails, setFormDetails] = useState(formInitialDetails);
     const [buttonText, setButtonText] = useState('Send');
-
     const onFormUpdate = (category, value) => {
         setFormDetails({
             ...formDetails,
