@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useStatennn } from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import contactImg from '../../assets/img/contact-img.svg'
 import './Contact.css'
@@ -21,11 +21,11 @@ const Contact = () => {
         })
     }
 
-    const handleSubmit = async (e) => {
-        e.preventDefault();
-        setButtonText('Sending...');
-        setFormDetails(formInitialDetails);
-    }
+    // const handleSubmit = async (e) => {
+    //     e.preventDefault();
+    //     setButtonText('Sending...');
+    //     setFormDetails(formInitialDetails);
+    // }
     return (
         <section className='contact' id='connect'>
 
@@ -36,7 +36,7 @@ const Contact = () => {
                     </Col>
                     <Col md={6}>
                         <h2>Get in Touch</h2>
-                        <form onSubmit={handleSubmit}>
+                        <form>
                             <Row>
                                 <Col sm={6} className='px-1'>
                                     <input type='text' value={formDetails.firstName} placeholder='First Name' onChange={(e) => onFormUpdate('firstName', e.target.value)} />
