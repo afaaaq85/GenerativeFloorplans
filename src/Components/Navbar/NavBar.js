@@ -62,7 +62,7 @@ const NavBar = () => {
                 console.log("Connect");
               }}
             >
-              <span>Let's Connect</span>
+              <span>Get the App</span>
             </button>
           </span>
         </Navbar.Collapse>
