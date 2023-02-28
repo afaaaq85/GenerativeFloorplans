@@ -20,7 +20,7 @@ const Footer = () => {
                   <a href="#b"><img src={navIcon2} alt="Icon" /></a>
                   <a href="#c"><img src={navIcon3} alt="Icon" /></a>
                 </div>
-                <p>Copyright GFP. All Rights Reserved</p>
+                <p>Copyright by GFP. All Rights Reserved</p>
               </Col>
             </Row>
           </Container>
