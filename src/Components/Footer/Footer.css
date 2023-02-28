@@ -37,6 +37,7 @@ body{
 }
 .footer {
     background-image: url('../../assets/img/footer-bg.png');
+    padding-top: 25px;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -52,8 +53,4 @@ body{
     letter-spacing: 0.5px;
     margin-top: 20px;
   }
-  .social-icon {
-    display: inline-block;
-    margin-top: 40px;
-    margin-left: 14px;
-}
+  
