@@ -1,0 +1,60 @@
+
+/************ Footer Css ************/
+@font-face {
+	font-family: Centra;
+	src: url('../../assets/font/CentraNo2-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Centra;
+	src: url('../../assets/font/CentraNo2-Medium.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Centra;
+	src: url('../../assets/font/CentraNo2-Book.ttf');
+	font-weight: 400;
+}
+
+/* Default CSS*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+body{
+  font-weight: 400;
+  font-family: 'Centra',sans-serif !important;
+  background-color: #121212 !important;
+  color: #fff !important;
+  overflow-x: hidden;
+  position: relative;
+}
+.footer {
+    background-image: url('../../assets/img/footer-bg.png');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .footer img {
+    width: 26%;
+  }
+  .footer p {
+    font-weight: 400;
+    font-size: 14px;
+    color: #B8B8B8;
+    letter-spacing: 0.5px;
+    margin-top: 20px;
+  }
+  .social-icon {
+    display: inline-block;
+    margin-top: 40px;
+    margin-left: 14px;
+}
