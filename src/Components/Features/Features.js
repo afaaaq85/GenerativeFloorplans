@@ -6,10 +6,10 @@ import meter2 from '../../assets/img/meter2.svg'
 import meter3 from '../../assets/img/meter3.svg'
 import colorSharp from '../../assets/img/color-sharp.png';
 
-import './Skills.css'
+import './Features.css'
 
 
-const Skills = () => {
+const Features = () => {
 
     const responsive = {
         superLargeDesktop: {
@@ -63,4 +63,4 @@ const Skills = () => {
     )
 }
 
-export default Skills
+export default Features
