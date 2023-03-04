@@ -38,6 +38,8 @@ body{
 .footer {
     background-image: url('../../assets/img/footer-bg.png');
     padding-top: 25px;
+    height: auto;
+    z-index: 9999;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

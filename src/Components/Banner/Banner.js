@@ -13,7 +13,7 @@ const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const toRotate = [ "is Fast", "is Intuitive", "has simple UI" ];
+  const toRotate = [ "Generative", "Fast", "Intuitive" ];
   const [index, setIndex] = useState(1);
   const period = 2000;
 
@@ -59,7 +59,7 @@ const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Generative Floorplans</span>
-                <h1>{`An AI app that `} <span className="txt-rotate"><br></br><span className="wrap">{text}</span></span></h1>
+                <h1>{`Welcome to `} <span className="txt-rotate"><br></br><span className="wrap">{text}</span></span> Floorplans</h1>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}

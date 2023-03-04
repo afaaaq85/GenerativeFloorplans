@@ -7,9 +7,21 @@ nav.navbar {
     z-index: 9999;
     transition:  0.32s ease-in-out;
   }
+  .container-narrow {
+  display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
   nav.navbar.scrolled {
     padding: 0px 0;
     background-color: #121212;
+    
   }
   nav.navbar a.navbar-brand {
       width: 9%;

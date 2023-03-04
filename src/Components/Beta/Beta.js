@@ -2,71 +2,71 @@ import React from 'react'
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import BetaCard from '../BetaCard/BetaCard';
 import colorSharp2 from '../../assets/img/color-sharp2.png'
-import projImg1 from "../../assets/img/project-img1.png";
-import projImg2 from "../../assets/img/project-img2.png";
-import projImg3 from "../../assets/img/project-img3.png";
+import area1 from "../../assets/img/area1.PNG";
+import area2 from "../../assets/img/area2.PNG";
+import area3 from "../../assets/img/area3.PNG";
+import room1 from "../../assets/img/room1.PNG";
+import room2 from "../../assets/img/room2.PNG";
+import room3 from "../../assets/img/room3.PNG";
+import perimeter1 from "../../assets/img/perimeter1.PNG";
+import perimeter2 from "../../assets/img/perimeter2.PNG";
+import perimeter3 from "../../assets/img/perimeter3.PNG";
 import './Beta.css'
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
 const Beta = () => {
 
-    const projects1 = [
+  const rooms = [
+    {
+      title: "Add/Remove a room",
+      description: "room configuration in floorplan",
+      imgUrl: room1,
+    },
+    {
+      title: "Room adjacency",
+      description: "Rooms to be together",
+      imgUrl: room2,
+    },
+    {
+      title: "Room added",
+      description: "Room added to floorplan automatically",
+      imgUrl: room3,
+    },
+  ];
+    const area = [
       {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: projImg1,
+        title: "Adjust area",
+        description: "Slide to adjust area of any room",
+        imgUrl: area1,
       },
       {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: projImg2,
+        title: "Area manipulation",
+        description: "Area gets automatically applied in floorplan",
+        imgUrl: area2,
       },
       {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: projImg3,
-      },
-      {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: projImg1,
-      },
-      {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: projImg2,
-      },
-      {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: projImg3,
+        title: "Final floorplan",
+        description: "Floorplan updated with current settings",
+        imgUrl: area3,
       },
     ];
-    const projects2 = [
+    
+    const perimeter = [
       {
         title: "Business Startup",
         description: "Design & Development",
-        imgUrl: projImg1,
-      },
-      
-      
-    ];
-    const projects3 = [
-      {
-        title: "Business Startup",
-        description: "Design & Development",
-        imgUrl: projImg1,
+        imgUrl: perimeter1,
       },
       {
         title: "Business Startup",
         description: "Design & Development",
-        imgUrl: projImg2,
+        imgUrl: perimeter2,
       },
       {
         title: "Business Startup",
         description: "Design & Development",
-        imgUrl: projImg2,
+        imgUrl: perimeter3,
       },
       
     ];
@@ -79,7 +79,7 @@ const Beta = () => {
               <TrackVisibility>
                 {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
-                  <h2>Beta Test</h2>
+                  <h2>Beta test</h2>
                   <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
@@ -97,7 +97,7 @@ const Beta = () => {
                       <Tab.Pane eventKey="first">
                         <Row>
                           {
-                            projects1.map((project, index) => {
+                            rooms.map((project, index) => {
                               return (
                                 <BetaCard
                                   key={index}
@@ -111,7 +111,7 @@ const Beta = () => {
                       <Tab.Pane eventKey="second">
                         <Row>
                           {
-                            projects2.map((project, index) => {
+                            area.map((project, index) => {
                               return (
                                 <BetaCard
                                   key={index}
@@ -125,7 +125,7 @@ const Beta = () => {
                       <Tab.Pane eventKey="third">
                         <Row>
                           {
-                            projects3.map((project, index) => {
+                            perimeter.map((project, index) => {
                               return (
                                 <BetaCard
                                   key={index}
