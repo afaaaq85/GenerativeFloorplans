@@ -93,6 +93,8 @@ body{
   }
   .contact form button:hover {
     color: #fff;
+    border-color: white;
+
   }
   .contact form button::before {
     content: "";

@@ -54,18 +54,18 @@ const Beta = () => {
     
     const perimeter = [
       {
-        title: "Business Startup",
-        description: "Design & Development",
+        title: "Perimeter Grid",
+        description: "Click on Draw Perimeter to enable it",
         imgUrl: perimeter1,
       },
       {
-        title: "Business Startup",
-        description: "Design & Development",
+        title: "Drag & tap",
+        description: "Drag with finger to make your desired perimeter",
         imgUrl: perimeter2,
       },
       {
-        title: "Business Startup",
-        description: "Design & Development",
+        title: "Updated layout",
+        description: "Floorplan updated according to new layout",
         imgUrl: perimeter3,
       },
       
