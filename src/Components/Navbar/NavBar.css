@@ -35,6 +35,9 @@ nav.navbar {
     font-size: 18px;
     opacity: 0.75;
   }
+  .navbar-logo{
+    height: 90px;
+  }
   .me-auto{
     margin-left: 5%;
   }
@@ -116,6 +119,23 @@ nav.navbar {
       width: 100%;
       height: 100%;
       position: absolute;
+  }
+  .menu-items{
+    display: flex;
+    align-items: center;
+  }
+  .menu-items button{
+    margin-left: 600px;
+  }
+  @media screen and (max-width: 790px) {
+    .menu-items{
+      display: flex;
+      flex-direction: column;
+      background-color: #121212;
+    }
+    .menu-items button{
+      margin-left: auto;
+    }
   }
   nav.navbar .navbar-toggler:active,
   nav.navbar .navbar-toggler:focus {

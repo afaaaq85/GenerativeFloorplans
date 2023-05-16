@@ -72,7 +72,7 @@ const Beta = () => {
     ];
   
     return (
-      <section className="project" id="project">
+      <section className="project" id="beta">
         <Container>
           <Row>
             <Col size={12}>

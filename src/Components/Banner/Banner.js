@@ -60,8 +60,9 @@ const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Generative Floorplans</span>
                 <h1>{`Welcome to `} <span className="txt-rotate"><br></br><span className="wrap">{text}</span></span> Floorplans</h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <p>A generative floorplans app is a software program that uses a genetic algorithm to automatically create 2D floor plans. The genetic algorithm is an optimization technique that mimics the process of natural selection to generate high-quality and diverse solutions to a problem.</p>
+                  <p>The output of the generative floorplans app is a set of 2D floor plans that meet the user's design criteria and preferences. These plans can be further customized and refined by the user, or used as a starting point for more detailed design work</p>
+                  <button onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
           </Col>

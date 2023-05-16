@@ -95,7 +95,11 @@ body{
   margin-top: -40px;
   animation: updown 3s linear infinite;
 }
-
+@media screen and (max-width: 790px) {
+  .banner img{
+    display: none;
+  }
+}
 @keyframes updown {
     0% {
         transform: translateY(-30px);

@@ -1,0 +1,64 @@
+
+.qr-container{
+  padding: 100px 0px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  width: 100%;
+}
+.qr-title{
+  margin-bottom: 30px ;
+}
+.Qrcode {
+    background: white;
+    padding: 10px;
+    height: 200px;
+  }
+.qr-codes{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+}
+.qr-codes h2{
+  margin-top: 10px;
+}
+.logo-app{
+  height: 100px;
+}
+.download-windows{
+  background-color: rgb(45, 0, 45);
+  color: white;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  padding: 20px;
+  width: 200px;
+  border: 2px solid rgb(225, 225, 225);
+}
+.download-android{
+  background-color: rgb(87, 178, 87);
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  padding: 20px;
+  width: 200px;
+  border: 2px solid rgb(225, 225, 225);
+}
+.download-windows:hover{
+  background-color: rgb(77, 29, 77);
+}
+.download-android:hover{
+  background-color: rgb(2, 130, 2);
+  
+}
+@media screen and (max-width: 790px) {
+  .qr-codes{
+    display: flex;
+    flex-direction: column;
+  }
+}

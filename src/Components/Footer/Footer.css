@@ -48,6 +48,9 @@ body{
   .footer img {
     width: 26%;
   }
+  .footer-logo{
+    height: 80px;
+  }
   .footer p {
     font-weight: 400;
     font-size: 14px;

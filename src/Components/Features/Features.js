@@ -38,18 +38,18 @@ const Features = () => {
                     <div className="col-12">
                         <div className="skill-bx wow zoomIn">
                             <h2>Features</h2>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                            <p>The genetic algorithm works by randomly generating a set of initial floor plans, and then using a fitness function to evaluate each plan based on a set of criteria such as room size, orientation, and adjacency. The algorithm then selects the best-performing plans and "mates" them to create new offspring with a combination of their features.</p>
                             <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                 <div className="item">
-                                    <img src={meter1} alt="Image" />
+                                    <img src={meter1} alt="Image1" />
                                     <h5>Rooms</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter2} alt="Image" />
+                                    <img src={meter2} alt="Image2" />
                                     <h5>Area</h5>
                                 </div>
                                 <div className="item">
-                                    <img src={meter3} alt="Image" />
+                                    <img src={meter3} alt="Image3" />
                                     <h5>Width</h5>
                                 </div>
                                
