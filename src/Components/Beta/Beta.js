@@ -80,7 +80,8 @@ const Beta = () => {
                 {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                   <h2>Beta test</h2>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>One of the standout features of Generative Floorplans is the ability to customize room areas. Users have the flexibility to adjust the size of individual rooms according to their specific requirements. Whether you need a spacious living room or a compact office space, the application empowers you to create floorplans tailored to your needs.</p>
+                  <p>To give you a glimpse of the application's capabilities, we have attached a few screenshots below. These images showcase the intuitive interface, the room customization options, and the seamless process of drawing a custom layout. We believe these visuals will help you better understand how Generative Floorplans can revolutionize your floorplan creation process.</p>
                   <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                       <Nav.Item>

@@ -1,3 +1,36 @@
+@font-face {
+	font-family: Centra;
+	src: url('../../assets/font/CentraNo2-Bold.ttf');
+	font-weight: 700;
+}
+@font-face {
+	font-family: Centra;
+	src: url('../../assets/font/CentraNo2-Medium.ttf');
+	font-weight: 500;
+}
+@font-face {
+	font-family: Centra;
+	src: url('../../assets/font/CentraNo2-Book.ttf');
+	font-weight: 400;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+body{
+  font-weight: 400;
+  font-family: 'Centra',sans-serif !important;
+  background-color: #121212 !important;
+  color: #fff !important;
+  overflow-x: hidden;
+  position: relative;
+}
 
 .qr-container{
   padding: 100px 0px;
@@ -8,8 +41,17 @@
   text-align: center;
   width: 100%;
 }
+.qr-container p {
+  color: #B8B8B8;
+  font-size: 18px;
+  letter-spacing: 0.8px;
+  line-height: 1.5em;
+  margin: 14px auto 50px auto;
+  text-align: center;
+  width: 56%;
+}
 .qr-title{
-  margin-bottom: 30px ;
+  margin-bottom: 10px ;
 }
 .Qrcode {
     background: white;
@@ -60,5 +102,7 @@
   .qr-codes{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
   }
 }

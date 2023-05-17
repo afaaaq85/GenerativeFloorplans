@@ -19,12 +19,13 @@ const QRcode = () => {
         <section id="qr">
             <div className='qr-container'>
                 <h1 className='qr-title'> Get the app now! </h1>
+                <p>We invite you to join our beta test and explore the possibilities of Generative Floorplans. Your feedback and suggestions will play a vital role in refining the application and shaping its future. Together, let's unlock the potential of genetic algorithms in floorplan generation.</p>
                 <div className='qr-codes'>
                     <div>
                         <h2>Windows 8.1/10 <span><img className='logo-app' src={windows} alt='img'/></span></h2>
                         <button className='download-windows' onClick={handleDownloadWin}>Download</button>
                     </div>
-                    <div>
+                    <div >
                         <QRCode className='Qrcode' value={apkLink} />
                         <h2>Android<span><img className='logo-app' src={android} alt='img'/></span></h2>
                         <button className='download-android' onClick={handleDownloadMob}>Download</button>
